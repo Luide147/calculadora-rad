@@ -1,0 +1,26 @@
+print ('Bem vindo!!')
+print('-------‐------------------------------------------------------------')
+const=int(input('qual a constante da máquina de 20 a 30?'))
+espessura=int(input('qual a espessura da área a estudar ?'))
+soma1=espessura+espessura
+soma2=soma1+const
+print('-------‐------------------------------------------------------------')
+print('o kv em média é:',soma2)
+print('-------‐------------------------------------------------------------')
+print('Região radiografica\t\tUnidade de medida de absorção')
+print('%s:\t\t\t\t\t\t\t\t%s'%('osso', 0.5))
+print('%s:\t\t\t\t\t\t%s'%('extremidades',0.1))
+print('%s:\t\t\t\t\t\t\t\t%s'%('pulmao',0.1))
+print('%s:\t\t\t\t\t%s'%('sistema digestivo',0.3))
+print('%s:\t\t\t\t\t%s'%('sistema urinário',0.3))
+print('%s:\t\t\t\t\t\t%s'%('partes moles',0.01))
+print('-------‐------------------------------------------------------------')
+ma=float(input('digite o número que corresponde a área de estudo?'))
+soma3=ma*soma2
+soma3=str(soma3).replace('.',',') # transforma ponto em vírgula 
+print('-------‐------------------------------------------------------------')
+print('O MAs em média para esta estrurura é:',soma3,)
+print('-------‐------------------------------------------------------------')
+print('LEMBRE-SE, EM EXTREMIDADES O VALOR DO MA EM MÉDIA É 100 MA')
+print('EM DEMAIS ÁREAS SE UTILIZA EM MÉDIA 200 MA')
+print('-------‐------------------------------------------------------------')
